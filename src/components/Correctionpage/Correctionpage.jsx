@@ -1,8 +1,12 @@
 import React from 'react'
 import Correction from '../../shared/components/Correction/Correction'
+import HelmetComponent from '../HelmetComponent/Helmetcomponent'
 
 export default function Correctionpage() {
   return (
-    <div><Correction /></div>
+    <div>
+      <HelmetComponent title="Correction - International Journal of Computer Vision and Multimedia Processing" />
+      <Correction />
+      </div>
   )
 }

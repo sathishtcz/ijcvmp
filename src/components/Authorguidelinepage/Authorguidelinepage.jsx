@@ -1,8 +1,12 @@
 import React from 'react'
 import Authorguideline from '../../shared/components/Authorguideline/Authorguideline'
+import HelmetComponent from '../HelmetComponent/Helmetcomponent'
 
 export default function Authorguidelinepage() {
   return (
-    <div><Authorguideline /></div>
+    <div>
+      <HelmetComponent title="Author Guidelines - International Journal of Computer Vision and Multimedia Processing" />
+      <Authorguideline />
+      </div>
   )
 }

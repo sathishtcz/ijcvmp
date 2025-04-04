@@ -1,8 +1,12 @@
 import React from 'react'
 import Issues from '../../shared/components/Issues/Issues'
+import HelmetComponent from '../HelmetComponent/Helmetcomponent'
 
 export default function Issuepage() {
   return (
-    <div><Issues /></div>
+    <div>
+      <HelmetComponent title="Issues - International Journal of Computer Vision and Multimedia Processing" />
+      <Issues />
+      </div>
   )
 }
