@@ -35,7 +35,7 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
                         content generation.
                     </p>
                     <div className="text-center ">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.ijcvmp.com/ijcvmp/index.php/ijcvmp/about/submissions" target="_blank" rel="noopener noreferrer">
                             <button className="bg-[#493D9E] text-white px-4 py-2 rounded-lg cursor-pointer ">
                                 <div className="flex justify-between gap-2 ">
                                     {" "}

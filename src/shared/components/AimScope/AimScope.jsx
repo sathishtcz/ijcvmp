@@ -19,7 +19,7 @@ export default function AimScope() {
                         { } aims to provide a premier platform for researchers, academicians, and industry professionals to share and advance knowledge in computer vision, image processing, video analysis, and multimedia technologies. The journal covers a wide range of topics, including object recognition, scene understanding, deep learning for vision, augmented and virtual reality, multimedia security, real-time vision applications, and human-computer interaction. IJCVMP fosters interdisciplinary research that integrates artificial intelligence, machine learning, and data-driven approaches to address complex challenges in intelligent vision systems. The journal is committed to bridging the gap between theory and real-world applications, supporting innovations in healthcare, security, automation, smart cities, and multimedia communications while ensuring the highest academic and ethical standards.
                     </p>
                     <div className="text-center ">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.ijcvmp.com/ijcvmp/index.php/ijcvmp/about/submissions" target="_blank" rel="noopener noreferrer">
                             <button className="bg-[#493D9E] text-white px-4 py-2 rounded-lg cursor-pointer  ">
                                 <div className="flex justify-between gap-2 ">
                                     {" "}

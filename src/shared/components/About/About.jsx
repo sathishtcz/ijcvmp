@@ -26,7 +26,7 @@ export default function About() {
                         { } is a peer-reviewed, open-access journal dedicated to advancing research in computer vision, image processing, video analysis, and multimedia applications. IJCVMP provides a platform for researchers, academicians, and industry professionals to share innovative solutions, theoretical advancements, and real-world applications in the rapidly evolving fields of artificial intelligence, deep learning, and multimedia technologies. The journal covers a wide range of topics, including object recognition, image segmentation, 3D vision, motion tracking, augmented reality, virtual reality, and secure multimedia authentication. By fostering collaboration and knowledge exchange, IJCVMP aims to bridge the gap between academia and industry while addressing current challenges and emerging trends in computer vision and multimedia processing.
                     </p>
                     <div className="text-center ">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.ijcvmp.com/ijcvmp/index.php/ijcvmp/about/submissions" target="_blank" rel="noopener noreferrer">
                             <button className="bg-[#493D9E] text-white px-4 py-2 rounded-lg cursor-pointer ">
                                 <div className="flex justify-between gap-2 ">
                                     {" "}

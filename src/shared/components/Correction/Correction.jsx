@@ -121,7 +121,9 @@ export default function Correction() {
                             </p>
                         </div>
                         <div className="flex justify-center items-center mt-3">
+                        <a href="https://www.ijcvmp.com/ijcvmp/index.php/ijcvmp/about/submissions" target="_blank" rel="noopener noreferrer">
                     <button className='bg-[#493D9E] text-white rounded-lg p-2 cursor-pointer'>Submit Paper</button>
+                    </a>
                 </div>
                     </div>
                 </div>
