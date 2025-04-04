@@ -15,7 +15,7 @@ export default function About() {
         <>
             <div className="bg-[#DFDBF2] p-5 rounded-lg ">
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-[#493D9E] poppins-extrabold text-xl">
+                    <h2 className="text-[#493D9E] poppins-bold text-2xl">
                         About us:
                     </h2>
                     <p className="poppins-regular text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">
@@ -53,7 +53,7 @@ export default function About() {
                         <div className="bg-[#DFDBF2]  flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Vision} className="w-[45px] h-[45px]" />
-                                <p className='text-[#493D9E] poppins-bold text-xl'>Scope</p>
+                                <p className='text-[#493D9E] poppins-bold lg:text-[20px] text-[18px]'>Scope</p>
                             </div>
                         </div>
                         <div className="p-6 space-y-4">
@@ -100,7 +100,7 @@ export default function About() {
                         <div className="bg-[#DFDBF2]  flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Vision} className="w-[45px] h-[45px]" />
-                                <p className='text-[#493D9E] poppins-bold text-xl'>Mission</p>
+                                <p className='text-[#493D9E] poppins-bold lg:text-[20px] text-[18px]'>Mission</p>
                             </div>
                         </div>
                         <div className="p-6 space-y-4">
@@ -149,7 +149,7 @@ export default function About() {
                             </div>
                         </div>
                         <div className="flex-1 p-6">
-                            <h2 className="text-center text-[#493D9E] poppins-bold text-xl mb-4">
+                            <h2 className="text-center text-[#493D9E] poppins-bold lg:text-[20px] text-[18px] mb-4">
                                 Publication Ethics
                             </h2>
 
@@ -162,7 +162,7 @@ export default function About() {
                             </p>
 
                             <div className="text-center mt-2    ">
-                                <button onClick={() =>navigate('/publicationethicspage')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                                <button onClick={() =>navigate('/publicationethicspage')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                                     Read More
                                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                                 </button>
@@ -179,7 +179,7 @@ export default function About() {
                             </div>
                         </div>
                         <div className="flex-1 p-6">
-                            <h2 className="text-center text-[#493D9E] poppins-bold text-xl mb-4">
+                            <h2 className="text-center text-[#493D9E] poppins-bold lg:text-[20px] text-[18px] mb-4">
                                 Article Processing{" "}
                             </h2>
 
@@ -192,7 +192,7 @@ export default function About() {
                             </p>
 
                             <div className="text-center mt-2">
-                                <button onClick={() =>navigate('/articleprocessingpage')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                                <button onClick={() =>navigate('/articleprocessingpage')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                                     Read More
                                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                                 </button>
@@ -208,12 +208,12 @@ export default function About() {
             <div className="bg-[#493D9E] px-2 py-2 mt-6 poppins-bold text-white text-xl rounded-lg w-fit">Featured Topics</div>
             {/* <div className="bg-[#493D9E] p-4 mt-6 poppins-bold text-white text-xl rounded-lg w-full text-center">Featured Topics</div> */}
             <div className="flex flex-col gap-4 mt-5">
-                <p className="text-[#493D9E] poppins-semibold text-[18px]">Abstract and Indexing</p>
+                <p className="text-[#493D9E] poppins-semibold text-[20px]">Abstract and Indexing</p>
                 <p className="text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">The International Journal of Computer Vision and Multimedia Processing is dedicated to ensuring the broad visibility and accessibility of published research through comprehensive abstracting and indexing services. The journal strives to be indexed in leading academic databases, digital libraries, and citation repositories to enhance the discoverability and impact of its articles. By being included in major indexing platforms, IJCVMP ensures that researchers, academicians, and industry professionals can easily access.</p>
 
             </div>
             <div className="text-center mt-1 ">
-                <button onClick={() =>navigate('/abstractindexing')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                <button onClick={() =>navigate('/abstractindexing')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                     Read More
                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                 </button>
@@ -222,12 +222,12 @@ export default function About() {
 
 
             <div className="flex flex-col gap-4 mt-5">
-                <p className="text-[#493D9E] poppins-semibold text-[18px]">Peer Review Process</p>
+                <p className="text-[#493D9E] poppins-semibold text-[20px]">Peer Review Process</p>
                 <p className="text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">The International Journal of Computer Vision and Multimedia Processing follows a rigorous double-blind peer review process to ensure the quality, originality, and integrity of published research. Upon submission, manuscripts undergo an initial screening for plagiarism, formatting, and alignment with the journal’s scope. Suitable manuscripts are then assigned to expert reviewers, who evaluate the work based on its technical depth, novelty, methodology, and significance to the field.</p>
 
             </div>
             <div className="text-center mt-1 ">
-                <button className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer" onClick={() => navigate('/peer')}>
+                <button className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer" onClick={() => navigate('/peer')}>
                     Read More
                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                 </button>

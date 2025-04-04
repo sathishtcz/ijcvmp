@@ -14,7 +14,7 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
             {/* welcome section */}
             <div className="bg-[#DFDBF2] p-5 rounded-lg ">
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-[#493D9E] poppins-extrabold text-xl">
+                    <h2 className="text-[#493D9E] poppins-bold text-2xl">
                         Welcome to IJCVMP
                     </h2>
                     <p className="poppins-regular text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">
@@ -57,13 +57,13 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-5">
                 <div className="flex-1 border border-gray-500 rounded-lg shadow-sm overflow-hidden bg-white">
                     <div className="lg:flex h-full">
-                        <div className="bg-[#493D9E] lg:w-30 flex items-center justify-center p-1">
+                        <div className="bg-[#493D9E] lg:w-30 flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={About} className="w-[75px] h-[63px]" />
                             </div>
                         </div>
                         <div className="flex-1 p-6">
-                            <h2 className="text-center text-[#493D9E] poppins-bold text-xl mb-4">
+                            <h2 className="text-center text-[#493D9E] poppins-bold lg:text-[20px] text-[18px] mb-4">
                                 About the Journal
                             </h2>
 
@@ -76,7 +76,7 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
                             </p>
 
                             <div className="text-center mt-2    ">
-                                <button onClick={() =>navigate('/aboutus')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                                <button onClick={() =>navigate('/aboutus')} className="font-medium flex items-center mx-auto cursor-pointer bg-[#493D9E] text-white px-4 py-2 rounded-lg ">
                                     Read More
                                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                                 </button>
@@ -87,13 +87,13 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
 
                 <div className="flex-1 border border-gray-500 rounded-lg shadow-sm overflow-hidden bg-white">
                     <div className="lg:flex h-full">
-                        <div className="bg-[#493D9E] lg:w-30 flex items-center justify-center p-1">
+                        <div className="bg-[#493D9E] lg:w-30 flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Accuracy} className="w-[100px] h-[63px]" />
                             </div>
                         </div>
                         <div className="flex-1 p-6">
-                            <h2 className="text-center text-[#493D9E] poppins-bold text-xl mb-4">
+                            <h2 className="text-center text-[#493D9E] poppins-bold lg:text-[20px] text-[18px] mb-4">
                                 Aim and Scope{" "}
                             </h2>
 
@@ -111,7 +111,7 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
                             </p>
 
                             <div className="text-center mt-2">
-                                <button onClick={() =>navigate('/aimscope')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                                <button onClick={() =>navigate('/aimscope')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                                     Read More
                                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                                 </button>
@@ -126,12 +126,12 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
             <div className="bg-[#493D9E]  px-2 py-2 mt-6 poppins-bold text-white text-xl rounded-lg w-fit">Featured Topics</div>
             {/* <div className="bg-[#493D9E] p-4 mt-6 poppins-bold text-white text-xl rounded-lg w-full text-center">Featured Topics</div> */}
             <div className="flex flex-col gap-4 mt-5">
-                <p className="text-[#493D9E] poppins-semibold text-[18px]">Peer Review Process</p>
+                <p className="text-[#493D9E] poppins-semibold text-[20px]">Peer Review Process</p>
                 <p className="text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">The International Journal of Computer Vision and Multimedia Processing  follows a rigorous double-blind peer review process to ensure high-quality and original research. Submitted manuscripts undergo an initial screening by the editorial team to check for relevance, originality, and adherence to guidelines. Eligible papers are then assigned to at least two independent reviewers, who evaluate the manuscript based on factors like methodology, significance, clarity, and contribution to the field.</p>
 
             </div>
             <div className="text-center mt-1 ">
-                <button onClick={() =>navigate('/peer')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                <button onClick={() =>navigate('/peer')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                     Read More
                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                 </button>
@@ -140,12 +140,12 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
 
 
             <div className="flex flex-col gap-4 mt-5">
-                <p className="text-[#493D9E] poppins-semibold text-[18px]">Publication Ethics</p>
+                <p className="text-[#493D9E] poppins-semibold text-[20px]">Publication Ethics</p>
                 <p className="text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">The International Journal of Computer Vision and Multimedia Processing upholds the highest standards of publication ethics to ensure integrity, originality, and transparency in scholarly publishing. Authors must submit original work, properly cite sources, and avoid plagiarism, fabrication, or falsification of data. Simultaneous submissions or redundant publications are strictly prohibited. All submitted manuscripts undergo a rigorous double-blind peer review to ensure unbiased evaluation.</p>
 
             </div>
             <div className="text-center mt-1 ">
-                <button onClick={() =>navigate('/publicationethicspage')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                <button onClick={() =>navigate('/publicationethicspage')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                     Read More
                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                 </button>
@@ -154,12 +154,12 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
 
 
             <div className="flex flex-col gap-4 mt-5">
-                <p className="text-[#493D9E] poppins-semibold text-[18px]">Article Processing</p>
+                <p className="text-[#493D9E] poppins-semibold text-[20px]">Article Processing</p>
                 <p className="text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">The International Journal of Computer Vision and Multimedia Processing follows a structured article processing workflow to ensure the timely and efficient handling of submissions. Once a manuscript is submitted, it undergoes an initial screening for compliance with formatting and ethical guidelines. Eligible manuscripts then proceed to a double-blind peer review, where independent reviewers evaluate the quality, originality, and significance of the research.</p>
 
             </div>
             <div className="text-center mt-1 ">
-                <button onClick={() =>navigate('/articleprocessingpage')} className="text-[#493D9E] font-medium flex items-center mx-auto cursor-pointer">
+                <button onClick={() =>navigate('/articleprocessingpage')} className="bg-[#493D9E] text-white px-4 py-2 rounded-lg font-medium flex items-center mx-auto cursor-pointer">
                     Read More
                     <img src={Fbutton} alt="Fbutton" className="w-10 h-6" />
                 </button>
@@ -173,7 +173,7 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
             <div className="bg-[#DFDBF2] rounded-lg shadow-sm overflow-hidden">
                 <div className="bg-[#493D9E]  text-center poppins-bold text-[20px] text-white p-2 ">Key Search Domains</div>
                 {/* Title */}
-                <h1 className=" text-[20px] poppins-semibold text-center mt-3 mb-3">
+                <h1 className=" text-[20px] poppins-medium text-center mt-3 mb-3">
                     The journal covers the following areas of Computer Vision and Multimedia Processing
                 </h1>
 
@@ -183,7 +183,7 @@ export default function Home({ keywords, firstRow, secondRow, thirdRow }) {
                         {firstRow.map((keyword, index) => (
                             <div key={index} className="flex items-center mb-2">
                                 <img src={Vision} alt="icon" className="w-9 h-5 mr-2" />
-                                <span className="text-gray-900">{keyword}</span>
+                                <span className="text-gray-900  ">{keyword}</span>
                             </div>
                         ))}
                     </div>

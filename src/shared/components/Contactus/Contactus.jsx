@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contactus() {
     return (
         <>
-            <div className="bg-[#DFDBF2] p-5 rounded-lg ">
+            {/* <div className="bg-[#DFDBF2] p-5 rounded-lg ">
                 <div className="flex flex-col gap-4">
                     <h2 className="text-[#493D9E] poppins-extrabold text-xl">
                         Contact Us:
@@ -13,9 +13,11 @@ export default function Contactus() {
                         Get in touch with us for any queries or support
                     </p>
                 </div>
-            </div>
+            </div> */}
 
             <div className='w-full  mx-auto px-6 mt-11' >
+            <h1 className="text-xl  lg:text-2xl poppins-bold mb-4 text-[#493D9E] text-center">Contact us</h1>
+            <p className="text-black text-base mb-4 poppins-regular text-center">Get in touch with us for any queries or support </p>
                 <div className="bg-[#DFDBF2] p-6 rounded-lg  max-w-md mx-auto">
                     <form className="space-y-6">
                         <div>

@@ -8,7 +8,7 @@ export default function Copyrights() {
             {/*Copyright */}
             <div className="bg-[#DFDBF2] p-5 rounded-lg ">
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-[#493D9E] poppins-extrabold text-xl">
+                    <h2 className="text-[#493D9E] poppins-bold text-2xl">
                         Copyright Declaration:
                     </h2>
                     <p className="poppins-regular text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">
@@ -112,7 +112,7 @@ export default function Copyrights() {
                         <div className="bg-[#DFDBF2]  flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Vision} className="w-[45px] h-[45px]" />
-                                <p className='text-[#493D9E] poppins-bold text-xl'>Copyright Declaration</p>
+                                <p className='text-[#493D9E] poppins-bold lg:text-[20px] text-[18px]'>Copyright Declaration</p>
                             </div>
                         </div>
                         <div className="p-6 space-y-4">
@@ -133,7 +133,7 @@ export default function Copyrights() {
                         <div className="bg-[#DFDBF2]  flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Vision} className="w-[45px] h-[45px]" />
-                                <p className='text-[#493D9E] poppins-bold text-xl'>Author Agreement</p>
+                                <p className='text-[#493D9E] poppins-bold lg:text-[20px] text-[18px]'>Author Agreement</p>
                             </div>
                         </div>
                         <div className="p-6 space-y-4">

@@ -89,12 +89,14 @@ const Header = () => {
                             {/* <Link to="/" className="text-[#493D9E] text-4xl poppins-bold">
                                 IJCVMP
                             </Link> */}
-                            <img className='  w-40 md:mx-0   mx-auto' src={ijcvmp} alt="logo" />
+                            <Link to="/">
+                                <img className="w-40 md:mx-0 mx-auto" src={ijcvmp} alt="logo" />
+                            </Link>
                         </div>
 
                         <Link to={"/"} className="lg:block hidden  absolute left-1/2 transform -translate-x-1/2">
                             <div className="flex justify-center items-center">
-                                <h1 className="2xl:text-xl md:text-base  poppins-bold ">
+                                <h1 className="2xl:text-2xl md:text-base  poppins-medium">
                                     International Journal of Computer Vision and Multimedia Processing
                                 </h1>
                             </div>

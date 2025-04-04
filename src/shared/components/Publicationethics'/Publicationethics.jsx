@@ -8,7 +8,7 @@ export default function Publicationethics() {
             {/*Publication Ethics:*/}
             <div className="bg-[#DFDBF2] p-5 rounded-lg ">
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-[#493D9E] poppins-extrabold text-xl">
+                    <h2 className="text-[#493D9E] poppins-bold text-2xl">
                     Publication Ethics:
                     </h2>
                     <p className="poppins-regular text-sm sm:text-base md:text-lg lg:text-[16px] text-justify">
@@ -113,7 +113,7 @@ export default function Publicationethics() {
                         <div className="bg-[#DFDBF2]  flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Vision} className="w-[45px] h-[45px]" />
-                                <p className='text-[#493D9E] poppins-bold text-xl'>Honest Reporting</p>
+                                <p className='text-[#493D9E] poppins-bold lg:text-[20px] text-[18px]'>Honest Reporting</p>
                             </div>
                         </div>
                         <div className="p-6 space-y-4">
@@ -134,7 +134,7 @@ export default function Publicationethics() {
                         <div className="bg-[#DFDBF2]  flex items-center justify-center p-2">
                             <div className=" flex items-center justify-center">
                                 <img src={Vision} className="w-[45px] h-[45px]" />
-                                <p className='text-[#493D9E] poppins-bold text-xl'>Confidentiality</p>
+                                <p className='text-[#493D9E] poppins-bold lg:text-[20px] text-[18px]'>Confidentiality</p>
                             </div>
                         </div>
                         <div className="p-6 space-y-4">
