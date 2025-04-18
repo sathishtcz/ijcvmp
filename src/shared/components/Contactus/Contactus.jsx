@@ -77,7 +77,7 @@ export default function Contactus() {
                         </button>
 
                         <p className="text-center text-gray-600 mt-6 poppins-regular">
-                            For any queries contact Email: <a href="mailto:editor@ijccbd.com" className="text-[#493D9E] hover:underline">editor@ijcvmp.com</a>
+                            For any queries contact Email: <a href="mailto:editor@ijcvmp.com" className="text-[#493D9E] hover:underline">editor@ijcvmp.com</a>
                         </p>
                     </form>
                 </div>
